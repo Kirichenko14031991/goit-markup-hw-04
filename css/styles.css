@@ -216,7 +216,8 @@ body {
 .mail:focus {
   color: #404bbf;
 }
-.address-list {
+
+.address-list:not(:last-child) {
   margin-right: 40px;
 }
 .menu-item:not(:last-child) {
@@ -253,7 +254,7 @@ body {
   width: 264px;
 }
 .what-are-we-doing {
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 .works-list {
   width: 360px;
@@ -322,7 +323,6 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  margin-bottom: 72px;
 }
 .btn-filter:hover,
 .btn-filter:focus {
